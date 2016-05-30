@@ -1,0 +1,74 @@
+int executionTime = 15;
+int numberOfTasks = 100;
+float mutationPercent = 0.2;
+float crossoverPercent = 0.9;
+
+1-10:
+int numberOfBreaks = 0.2 * numberOfTasks;
+int maxTaskTime = 20;
+int maxReadyTaskTime = 2*maxTaskTime;
+int maxBreakTime = maxTaskTime/2;
+int maxBreakStartTime = numberOfTasks * maxTaskTime * 4/5;
+
+11-20:
+int numberOfBreaks = 0.4 * numberOfTasks;
+int maxTaskTime = 20;
+int maxReadyTaskTime = 5*maxTaskTime;
+int maxBreakTime = maxTaskTime;
+int maxBreakStartTime = numberOfTasks * maxTaskTime * 4/5;
+
+21-30:
+int numberOfBreaks = 0.4 * numberOfTasks;
+int maxTaskTime = 20;
+int maxReadyTaskTime = 5*maxTaskTime;
+int maxBreakTime = maxTaskTime;
+int maxBreakStartTime = 200;
+
+31-40:
+int numberOfBreaks = 0.1 * numberOfTasks;
+int maxTaskTime = 100;
+int maxReadyTaskTime = 2*maxTaskTime;
+int maxBreakTime = maxTaskTime/2;
+int maxBreakStartTime = numberOfTasks * maxTaskTime * 4/5;
+
+41-50:
+int numberOfBreaks = 0.1 * numberOfTasks;
+int maxTaskTime = 200;
+int maxReadyTaskTime = 2*maxTaskTime;
+int maxBreakTime = maxTaskTime/2;
+int maxBreakStartTime = numberOfTasks * maxTaskTime * 4/5;
+
+51-60:
+int numberOfBreaks = 2;
+int maxTaskTime = 20;
+int maxReadyTaskTime = 2*maxTaskTime;
+int maxBreakTime = maxTaskTime/2;
+int maxBreakStartTime = numberOfTasks * maxTaskTime * 4/5;
+
+61-70:
+int numberOfBreaks = 2;
+int maxTaskTime = 100;
+int maxReadyTaskTime = 2*maxTaskTime;
+int maxBreakTime = maxTaskTime/2;
+int maxBreakStartTime = numberOfTasks * maxTaskTime * 4/5;
+
+71-80:
+int numberOfBreaks = 0.1 * numberOfTasks;
+int maxTaskTime = 20;
+int maxReadyTaskTime = 20*maxTaskTime;
+int maxBreakTime = maxTaskTime;
+int maxBreakStartTime = numberOfTasks * maxTaskTime * 4/5;
+
+81-90:
+int numberOfBreaks = 0.1 * numberOfTasks;
+int maxTaskTime = 20;
+int maxReadyTaskTime = numberOfTasks * maxTaskTime * 3/5;
+int maxBreakTime = maxTaskTime;
+int maxBreakStartTime = numberOfTasks * maxTaskTime * 4/5;
+
+91-100:
+int numberOfBreaks = 0.5 * numberOfTasks;
+int maxTaskTime = 50;
+int maxReadyTaskTime = numberOfTasks * maxTaskTime * 3/5;
+int maxBreakTime = maxTaskTime;
+int maxBreakStartTime = numberOfTasks * maxTaskTime * 4/5;

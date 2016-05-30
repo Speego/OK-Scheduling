@@ -1,0 +1,41 @@
+int executionTime = 15;
+int numberOfTasks = 100;
+float mutationPercent = 0.2;
+float crossoverPercent = 0.9;
+int populationSize = 50;
+
+1-5:
+int numberOfBreaks = 0.1 * numberOfTasks;
+int maxTaskTime = 20;
+int maxReadyTaskTime = 2*maxTaskTime;
+int maxBreakTime = maxTaskTime/2;
+
+6-10:
+int numberOfBreaks = 0.2 * numberOfTasks;
+int maxTaskTime = 200;
+int maxReadyTaskTime = 5*maxTaskTime;
+int maxBreakTime = maxTaskTime/2;
+
+11-15:
+int numberOfBreaks = 0.2 * numberOfTasks;
+int maxTaskTime = 20;
+int maxReadyTaskTime = 5*maxTaskTime;
+int maxBreakTime = maxTaskTime;
+
+16-20:
+int numberOfBreaks = 2;
+int maxTaskTime = 20;
+int maxReadyTaskTime = 20*maxTaskTime;
+int maxBreakTime = maxTaskTime*5;
+
+21-25:
+int numberOfBreaks = 0.5 * numberOfTasks;
+int maxTaskTime = 20;
+int maxReadyTaskTime = numberOfTasks * maxTaskTime * 3/5;
+int maxBreakTime = maxTaskTime;
+
+26-30:
+int numberOfBreaks = 0.1 * numberOfTasks;
+int maxTaskTime = 150;
+int maxReadyTaskTime = numberOfTasks * maxTaskTime * 3/5;
+int maxBreakTime = maxTaskTime*20;
